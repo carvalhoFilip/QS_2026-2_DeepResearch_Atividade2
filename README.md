@@ -1,51 +1,41 @@
-# Equipe 06 — DeepResearch · Atividade 2
+# Equipe 06 — DeepResearch · Atividade 2 (AV2)
 
-**Missão D — Contexto sob Pressão**
-Disciplina: Qualidade de Software — AV2 (2026.2)
-
-Avaliação de como o agente se comporta quando o contexto fornecido varia entre correto, ausente, irrelevante e conflitante.
+**Missão Contexto Confiável** — verificação, segurança e melhoria de aplicações de IA generativa
+Disciplina: Qualidade de Software — 2026.2
 
 | | |
 |---|---|
 | Projeto analisado | https://github.com/Alibaba-NLP/DeepResearch |
-| Licença do projeto | Apache-2.0 |
+| Licença | Apache-2.0 |
 | Commit/tag avaliado | *a registrar* |
+| Missão escolhida | **D — Contexto sob Pressão** |
+| Fluxo avaliado | Busca documental com resposta fundamentada em fontes |
 | Atividade 1 | https://github.com/BrennoPh/QS_2026-2_DeepReserach_Atividade1 |
 
 ## A missão
 
-Uma mesma bateria de perguntas é submetida ao agente sob quatro condições de contexto. O resultado da atividade é a **comparação entre as condições**, não o desempenho em cada uma isoladamente.
+Comparação do comportamento do agente quando o contexto fornecido varia entre **correto, ausente, irrelevante e conflitante**.
 
-| Condição | Contexto fornecido | O que se observa |
-|---|---|---|
-| A | Documento que responde a pergunta | Baseline: acerto, fonte citada, formato |
-| B | Nenhum documento | Declara o limite ou inventa? |
-| C | Documento real, sobre outro assunto | Usa o que não serve só porque está lá? |
-| D | Dois documentos que se contradizem | Reporta o conflito ou escolhe em silêncio? |
+A escolha tem continuidade direta com a Atividade 1, que previu por análise estática — sem conseguir executar — dois comportamentos que esta atividade submete a teste: o `EXTRACTOR_PROMPT` resume cada página isoladamente, sem reconciliar fontes divergentes; e o `SYSTEM_PROMPT` não traz instrução que obrigue declarar evidência insuficiente.
 
-## Índice das partes
+## Partes
 
-| Parte | Eixo | Responsável | Documento |
+| Parte | Conteúdo | Responsável | Documento |
 |---|---|---|---|
-| 1 | Protocolo, corpus e rubrica | *a definir* | [docs/parte1-protocolo.md](docs/parte1-protocolo.md) |
-| 2 | Condição A — contexto correto | *a definir* | [docs/parte2-condicao-a.md](docs/parte2-condicao-a.md) |
-| 3 | Condição B — contexto ausente | *a definir* | [docs/parte3-condicao-b.md](docs/parte3-condicao-b.md) |
-| 4 | Condição C — contexto irrelevante | *a definir* | [docs/parte4-condicao-c.md](docs/parte4-condicao-c.md) |
-| 5 | Condição D — contexto conflitante | *a definir* | [docs/parte5-condicao-d.md](docs/parte5-condicao-d.md) |
-| 6 | Métricas e consolidação | *a definir* | [docs/parte6-metricas.md](docs/parte6-metricas.md) |
-| 7 | Achados, plano de melhoria e limitações | *a definir* | [docs/parte7-achados.md](docs/parte7-achados.md) |
-
-A Parte 1 precisa estar fechada antes de qualquer execução: se o protocolo não for idêntico entre as quatro condições, a comparação não se sustenta. A Parte 6 deve ser conduzida por quem não executou nenhuma condição, para que ninguém pontue o próprio resultado.
+| A | Ficha da missão | Filipe de Carvalho Godoy | [docs/parteA-ficha-da-missao.md](docs/parteA-ficha-da-missao.md) |
+| B | Laboratório de contexto e prompts | *a definir* | [docs/parteB-laboratorio-prompts.md](docs/parteB-laboratorio-prompts.md) |
+| C | Verificação de fontes e saída estruturada | *a definir* | [docs/parteC-verificacao-fontes.md](docs/parteC-verificacao-fontes.md) |
+| D | Modelo de ameaças simplificado | *a definir* | [docs/parteD-modelo-ameacas.md](docs/parteD-modelo-ameacas.md) |
+| E | Testes obrigatórios | *a definir* (duas pessoas) | [docs/parteE-testes-obrigatorios.md](docs/parteE-testes-obrigatorios.md) |
+| — | Classificação de falhas e plano de melhoria | *a definir* | [docs/classificacao-falhas-melhoria.md](docs/classificacao-falhas-melhoria.md) |
 
 ## Estrutura do repositório
 
 ```
 docs/         uma parte por arquivo
-protocolo/    perguntas-base, definição das condições, rubrica de pontuação
-corpus/       documentos de contexto fabricados para cada condição
-evidencias/   saídas brutas do agente, por condição e repetição
-resultados/   planilha de pontuação e gráficos comparativos
-assets/       imagens usadas no relatório
+evidencias/   saídas brutas, capturas e logs, por parte
+resultados/   planilha de casos de teste e gráficos
+assets/       imagens do relatório
 ```
 
 ## Integrantes
@@ -64,4 +54,15 @@ assets/       imagens usadas no relatório
 
 **URL:** *a preencher*
 
-Detalhes de gravação e participantes em [`VIDEO.md`](VIDEO.md).
+Até 20 minutos, com participação de todos. Detalhes em [`VIDEO.md`](VIDEO.md).
+
+## Entregáveis (até 21/10/2026, 23h59)
+
+- [ ] Relatório técnico em PDF
+- [ ] Repositório com README, prompts versionados, casos de teste, resultados, evidências, tabela de ameaças e plano de melhoria
+- [ ] Planilha ou CSV com casos de teste e resultados
+- [ ] Apresentação em PDF ou slides
+- [ ] Vídeo de até 20 minutos, URL no README, no relatório e em `VIDEO.md`
+- [ ] Tabela de contribuição individual
+
+**Apresentação:** 22/10/2026 — 10 a 12 minutos, mais 3 a 5 de perguntas.
