@@ -25,7 +25,7 @@ A escolha tem continuidade direta com a Atividade 1, que previu por análise est
 | A | Ficha da missão | Filipe de Carvalho Godoy | [docs/parteA-ficha-da-missao.md](docs/parteA-ficha-da-missao.md) |
 | B | Laboratório de contexto e prompts | *a definir* | [docs/parteB-laboratorio-prompts.md](docs/parteB-laboratorio-prompts.md) |
 | C | Verificação de fontes e saída estruturada | *a definir* | [docs/parteC-verificacao-fontes.md](docs/parteC-verificacao-fontes.md) |
-| D | Modelo de ameaças simplificado | *a definir* | [docs/parteD-modelo-ameacas.md](docs/parteD-modelo-ameacas.md) |
+| D | Modelo de ameaças simplificado | Giovani Barros Luna Gomes | [docs/parteD-modelo-ameacas.md](docs/parteD-modelo-ameacas.md) |
 | E | Testes obrigatórios | *a definir* (duas pessoas) | [docs/parteE-testes-obrigatorios.md](docs/parteE-testes-obrigatorios.md) |
 | — | Classificação de falhas e plano de melhoria | *a definir* | [docs/classificacao-falhas-melhoria.md](docs/classificacao-falhas-melhoria.md) |
 
