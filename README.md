@@ -50,6 +50,18 @@ assets/       imagens do relatório
 | 06 | Lais Santos de Sousa | 202100115364 |
 | 07 | Thiago Mecena Silva | 202100045840 |
 
+## Contribuição individual
+
+| Nome | Matrícula | Parte | Contribuição |
+|---|---|---|---|
+| Brenno Phelipe Silva dos Santos | 202400050750 | *a definir* | |
+| Daniel José Silva Trindade | 202200059698 | *a definir* | |
+| Emilly Kathellen de Jesus Oliveira | 202400050830 | *a definir* | |
+| Filipe de Carvalho Godoy | 202100115408 | A — Ficha da missão | Ficha do sistema atualizada a partir da Atividade 1, com ferramentas, prompts e fontes de dados do fluxo avaliado; desenho do fluxo simplificado mapeado ao código do projeto; classificação dos dados do recorte em público, sintético, interno e não permitido para teste; reestruturação do repositório. |
+| Giovani Barros Luna Gomes | 202400050885 | *a definir* | |
+| Lais Santos de Sousa | 202100115364 | *a definir* | |
+| Thiago Mecena Silva | 202100045840 | *a definir* | |
+
 ## Vídeo da atividade
 
 **URL:** *a preencher*
