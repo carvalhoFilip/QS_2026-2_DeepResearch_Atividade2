@@ -26,7 +26,7 @@ A escolha tem continuidade direta com a Atividade 1, que previu por análise est
 | B | Laboratório de contexto e prompts | *a definir* | [docs/parteB-laboratorio-prompts.md](docs/parteB-laboratorio-prompts.md) |
 | C | Verificação de fontes e saída estruturada | *a definir* | [docs/parteC-verificacao-fontes.md](docs/parteC-verificacao-fontes.md) |
 | D | Modelo de ameaças simplificado | Giovani Barros Luna Gomes | [docs/parteD-modelo-ameacas.md](docs/parteD-modelo-ameacas.md) |
-| E | Testes obrigatórios | *a definir* (duas pessoas) | [docs/parteE-testes-obrigatorios.md](docs/parteE-testes-obrigatorios.md) |
+| E | Testes obrigatórios | Thiago Mecena Silva | [docs/parteE-testes-obrigatorios.md](docs/parteE-testes-obrigatorios.md) |
 | — | Classificação de falhas e plano de melhoria | *a definir* | [docs/classificacao-falhas-melhoria.md](docs/classificacao-falhas-melhoria.md) |
 
 ## Estrutura do repositório
@@ -60,7 +60,7 @@ assets/       imagens do relatório
 | Filipe de Carvalho Godoy | 202100115408 | A — Ficha da missão | Ficha do sistema atualizada a partir da Atividade 1, com ferramentas, prompts e fontes de dados do fluxo avaliado; desenho do fluxo simplificado mapeado ao código do projeto; classificação dos dados do recorte em público, sintético, interno e não permitido para teste; reestruturação do repositório. |
 | Giovani Barros Luna Gomes | 202400050885 | *a definir* | |
 | Lais Santos de Sousa | 202100115364 | *a definir* | |
-| Thiago Mecena Silva | 202100045840 | *a definir* | |
+| Thiago Mecena Silva | 202100045840 | Elaboração e execução prática de 5 casos de teste obrigatórios da Parte E no pipeline do DeepResearch (cobrindo testes funcionais, de contexto, metamórficos e adversariais de privacidade/LGPD); coleta de logs e consolidação das evidências de execução via API; apuração das métricas de qualidade (cobertura de citações, precisão, taxa de injeção e latência); estruturação da planilha de casos de teste e da planilha de evidências e métricas; e apresentação demonstrativa dos resultados no vídeo da equipe. | |
 
 ## Vídeo da atividade
 
