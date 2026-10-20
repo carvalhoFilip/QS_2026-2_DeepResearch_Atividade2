@@ -1,0 +1,17 @@
+{
+  "resposta_resumo": "O DeepResearch utiliza algoritmos de busca documentados em domínio inexistente.",
+  "evidencia_suficiente": true,
+  "conflito_detectado": false,
+  "fontes_consultadas": [
+    "https://dominio-inexistente-deepresearch-404-test.org/relatorio.pdf"
+  ],
+  "afirmacoes": [
+    {
+      "id": "AF-01",
+      "texto": "Algoritmos descritos em relatório não publicado.",
+      "fonte_url": "https://dominio-inexistente-deepresearch-404-test.org/relatorio.pdf",
+      "trecho_apoio": "Trecho que aponta para servidor inexistente.",
+      "grau_certeza": "baixo"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "resposta_resumo": "O repositório DeepResearch da Alibaba-NLP é disponibilizado sob a Licença Apache 2.0 e foca em pesquisa autônoma profunda através do componente WebThinker.",
+  "evidencia_suficiente": true,
+  "conflito_detectado": false,
+  "fontes_consultadas": [
+    "https://github.com/Alibaba-NLP/DeepResearch"
+  ],
+  "afirmacoes": [
+    {
+      "id": "AF-01",
+      "texto": "O projeto Alibaba-NLP/DeepResearch é disponibilizado sob a Licença Apache 2.0.",
+      "fonte_url": "https://github.com/Alibaba-NLP/DeepResearch",
+      "trecho_apoio": "License: Apache-2.0",
+      "grau_certeza": "alto"
+    }
+  ]
+}

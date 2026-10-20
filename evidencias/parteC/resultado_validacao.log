@@ -1,0 +1,37 @@
+======================================================================
+RELATÓRIO DE EXECUÇÃO DOS TESTES DO ESQUEMA - PARTE C
+Responsável: Daniel José Silva Trindade
+======================================================================
+
+[TESTE 1] - JSON Inválido
+Entrada: String com sintaxe JSON corrompida (chaves não fechadas).
+Resultado Esperado: Rejeição com erro sintático de decodificação JSON.
+Resultado Observado: Erro de sintaxe JSON: Expecting ',' delimiter (linha 6, coluna 1)
+Status do Teste: PASSOU
+
+[TESTE 2] - Campo Obrigatório Ausente
+Entrada: Objeto JSON sem os campos obrigatórios 'afirmacoes' e 'evidencia_suficiente'.
+Resultado Esperado: Rejeição do esquema identificando propriedade obrigatória ausente.
+Resultado Observado: Falha de validação de esquema no campo 'raiz': 'evidencia_suficiente' is a required property
+Status do Teste: PASSOU
+
+[TESTE 3] - URL Inexistente / Inacessível
+Entrada: Payload apontando para URL com domínio inexistente ('https://dominio-inexistente-deepresearch-404-test.org/relatorio.pdf').
+Resultado Esperado: Rejeição com erro de conexão / resolução DNS ou código 404.
+Resultado Observado: Falha de conexão / host não resolvido: [Errno -2] Name or service not known
+Status do Teste: PASSOU
+
+[TESTE 4] - Fonte que não sustenta a afirmação
+Entrada: Afirmação 'O código-fonte do DeepResearch foi reescrito na linguagem Rust com 100% de cobertura de testes unitários.' apontando para fonte oficial, mas com citação fabricada.
+Resultado Esperado: Veredito 'não sustentada' com notificação de ausência de evidência na fonte.
+Resultado Observado: Veredito 'não sustentada'. Detalhes: Trecho de apoio 'DeepResearch is rewritten in Rust and achieves 100% test coverage.' NÃO foi encontrado no conteúdo da fonte.
+Status do Teste: PASSOU
+
+[TESTE DE REFERÊNCIA] - Payload Válido e Sustentado
+Afirmação: 'O projeto Alibaba-NLP/DeepResearch é disponibilizado sob a Licença Apache 2.0.'
+Resultado Observado: Veredito 'sustentada'. Trecho de apoio verificado no texto da fonte 'https://github.com/Alibaba-NLP/DeepResearch'.
+Status: PASSOU
+
+======================================================================
+RESUMO DOS 4 TESTES: 4/4 CENÁRIOS HOMOLOGADOS COM SUCESSO.
+======================================================================

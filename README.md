@@ -24,7 +24,7 @@ A escolha tem continuidade direta com a Atividade 1, que previu por análise est
 |---|---|---|---|
 | A | Ficha da missão | Filipe de Carvalho Godoy | [docs/parteA-ficha-da-missao.md](docs/parteA-ficha-da-missao.md) |
 | B | Laboratório de contexto e prompts | *a definir* | [docs/parteB-laboratorio-prompts.md](docs/parteB-laboratorio-prompts.md) |
-| C | Verificação de fontes e saída estruturada | *a definir* | [docs/parteC-verificacao-fontes.md](docs/parteC-verificacao-fontes.md) |
+| C | Verificação de fontes e saída estruturada | Daniel José Silva Trindade | [docs/parteC-verificacao-fontes.md](docs/parteC-verificacao-fontes.md) |
 | D | Modelo de ameaças simplificado | Giovani Barros Luna Gomes | [docs/parteD-modelo-ameacas.md](docs/parteD-modelo-ameacas.md) |
 | E | Testes obrigatórios | Thiago Mecena Silva | [docs/parteE-testes-obrigatorios.md](docs/parteE-testes-obrigatorios.md) |
 | — | Classificação de falhas e plano de melhoria | *a definir* | [docs/classificacao-falhas-melhoria.md](docs/classificacao-falhas-melhoria.md) |
@@ -55,7 +55,7 @@ assets/       imagens do relatório
 | Nome | Matrícula | Parte | Contribuição |
 |---|---|---|---|
 | Brenno Phelipe Silva dos Santos | 202400050750 | *a definir* | |
-| Daniel José Silva Trindade | 202200059698 | *a definir* | |
+| Daniel José Silva Trindade | 202200059698 | C — Verificação de fontes e saída estruturada | Auditoria de afirmações factuais com verificação contra fontes primárias e cálculo de cobertura de citações; definição formal de esquema JSON para saída estruturada do DeepResearch (mitigando ausência de contrato rígido e riscos da Missão D); desenvolvimento e execução do script validador automatizado (checando sintaxe JSON, integridade de esquema, resolução de URLs e coerência do trecho de apoio); geração de logs e evidências dos testes de contrato. |
 | Emilly Kathellen de Jesus Oliveira | 202400050830 | *a definir* | |
 | Filipe de Carvalho Godoy | 202100115408 | A — Ficha da missão | Ficha do sistema atualizada a partir da Atividade 1, com ferramentas, prompts e fontes de dados do fluxo avaliado; desenho do fluxo simplificado mapeado ao código do projeto; classificação dos dados do recorte em público, sintético, interno e não permitido para teste; reestruturação do repositório. |
 | Giovani Barros Luna Gomes | 202400050885 | *a definir* | |

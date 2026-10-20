@@ -1,0 +1,17 @@
+{
+  "resposta_resumo": "O Alibaba-NLP/DeepResearch foi inteiramente reescrito na linguagem Rust com 100% de cobertura de testes unitários.",
+  "evidencia_suficiente": true,
+  "conflito_detectado": false,
+  "fontes_consultadas": [
+    "https://github.com/Alibaba-NLP/DeepResearch"
+  ],
+  "afirmacoes": [
+    {
+      "id": "AF-01",
+      "texto": "O código-fonte do DeepResearch foi reescrito na linguagem Rust com 100% de cobertura de testes unitários.",
+      "fonte_url": "https://github.com/Alibaba-NLP/DeepResearch",
+      "trecho_apoio": "DeepResearch is rewritten in Rust and achieves 100% test coverage.",
+      "grau_certeza": "alto"
+    }
+  ]
+}

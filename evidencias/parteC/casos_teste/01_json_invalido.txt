@@ -1,0 +1,5 @@
+{
+    "resposta_resumo": "O framework DeepResearch é open-source",
+    "evidencia_suficiente": true,
+    "afirmacoes": [
+        {"id": "AF-01", "texto": "Faltando fechamento de chaves"
