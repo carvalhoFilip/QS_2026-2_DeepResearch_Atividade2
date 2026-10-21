@@ -64,7 +64,7 @@ assets/       imagens do relatório
 
 ## Vídeo da atividade
 
-**URL:** *a preencher*
+**URL:** https://drive.google.com/file/d/1lu9MxgcPFqf3xYyP2Es34vDXxcwiwFgj/view?usp=drive_link
 
 Até 20 minutos, com participação de todos. Detalhes em [`VIDEO.md`](VIDEO.md).
 
