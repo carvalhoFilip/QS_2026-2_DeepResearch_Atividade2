@@ -27,7 +27,7 @@ A escolha tem continuidade direta com a Atividade 1, que previu por análise est
 | C | Verificação de fontes e saída estruturada | Daniel José Silva Trindade | [docs/parteC-verificacao-fontes.md](docs/parteC-verificacao-fontes.md) |
 | D | Modelo de ameaças simplificado | Giovani Barros Luna Gomes | [docs/parteD-modelo-ameacas.md](docs/parteD-modelo-ameacas.md) |
 | E | Testes obrigatórios | Thiago Mecena Silva | [docs/parteE-testes-obrigatorios.md](docs/parteE-testes-obrigatorios.md) |
-| — | Classificação de falhas e plano de melhoria | *a definir* | [docs/classificacao-falhas-melhoria.md](docs/classificacao-falhas-melhoria.md) |
+| — | Classificação de falhas e plano de melhoria | Lais Santos de Sousa | [docs/classificacao-falhas-melhoria.md](docs/classificacao-falhas-melhoria.md) |
 
 ## Estrutura do repositório
 
