@@ -1,7 +1,6 @@
 # Parte B — Laboratório de contexto e prompts
 
 **Responsável:** Emilly Kathellen de Jesus Oliveira (202400050830)
-**Execução:** 20/10/2026, entre 21h15 e 21h35
 **Modelo:** `minimax/minimax-m3.1-flash:free` (o mesmo da Parte E), via OpenRouter Chat
 
 Texto integral dos 12 prompts: [`evidencias/parteB/prompts_parteB.md`](../evidencias/parteB/prompts_parteB.md)
